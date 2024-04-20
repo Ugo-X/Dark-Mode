@@ -7,14 +7,17 @@ toggleBtn.addEventListener("click", (evt) => {
   document.documentElement.classList.toggle("dark-theme");
 });
 
-const articlesData = articles.map(({title, date, length, snippet}) => {
+const articlesData = articles.map(({title, date, length,snippet}) => {
+    // snippet format
 
+// format date
+const formatDate = moment(date).format('MMMM Do, YYYY ')
   return `
 <!-- single post -->
 <article class="post">
   <h2>${title}</h2>
   <div class="post-info">
-    <span>${date}</span>
+    <span>${formatDate}</span>
     <span>${length}min read</span>
   </div>
   <p>${snippet}</p>
@@ -25,4 +28,9 @@ const articlesData = articles.map(({title, date, length, snippet}) => {
 
 articlesContainer.innerHTML = articlesData
 
-console.log(articles);
+
+
+
+
+
+
