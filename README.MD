@@ -1,4 +1,8 @@
 ## Dark Mode
+* This project implements a simple dark mode toggle functionality for web pages using JavaScript. By clicking a designated button, users can switch between light and dark themes effortlessly. The project provides a lightweight solution for enhancing user experience by offering a customizable interface. Additionally, it includes functionality to iterate over a list of articles, although further development is needed to integrate this feature seamlessly.
+
+
+
 
 #### HTML Structure
 
