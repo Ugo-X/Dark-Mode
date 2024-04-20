@@ -41,5 +41,5 @@
 
 #### Format Date
 
-- import moment.js (typically formats dates)
+- import moment.js library (typically formats dates)
 - format date
